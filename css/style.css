@@ -1,0 +1,59 @@
+/* style.css - design for student_grades.html */
+
+/* whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 30px;
+}
+
+/* headings */
+h1, h2 {
+  color: #1f3a5f;
+}
+
+/* tables */
+table {
+  border-collapse: collapse;
+  width: 70%;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+/* header row color */
+th {
+  background-color: #1f3a5f;
+  color: white;
+}
+
+/* every other row has a different color so it's easier to read */
+tr:nth-child(even) {
+  background-color: #eef2f7;
+}
+
+/* the button */
+button {
+  padding: 8px 16px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* darker green when mouse is on the button */
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* space above the result table */
+#result {
+  margin-top: 20px;
+}
